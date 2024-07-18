@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.dancing-script-body {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+:root{
+    --primary-color:#111317;
+    --primary-color-light:#1f2125;
+    --primary-color-extra-light:#35373b;
+    --secondary-color:#E6533C;
+    --text-light:#d1d5db;
+        --white:#ffffff;}
+
+.noto-sans-body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.full-body-color{
+    background-color: #111317;
+}
+
+
+/* header-1 */
+.header-1{
+    width:90rem;
+    height:50rem;
+    border:2px solid red;
+    margin:0 auto;
+}
+.navbar{
+    width:69.5rem;
+    height:2.875rem;
+    border:2px solid red;
+    margin:0 auto;
+    margin-top:1.25rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.navbar-items{
+    width:29rem;
+    height:2.875rem;
+    border:2px solid red;
+    display:flex;
+    justify-content: space-around;
+}
+.header-1-2{
+    width:37.441rem;
+    height:27.5rem;
+    border:2px solid red;
+    margin-left:9rem ;
+    margin-top:4rem;
+    color:aqua;
+}
+.last-header{
+    display:flex;
+}
+.header-1-2-button{
+    width:29.875rem;
+    display:flex;
+    justify-content: space-between;
+    border:2px solid red;
+    margin-top:2rem ;
+   
+}
+.header-1-2-problem{
+    width:27.5rem;
+    height:36rem;
+    border:2px solid red;
+}
+/* button-2ta */
+
+/* main-start */
+.main-1st{
+    width:65.25rem;
+    height:28.25rem;
+    margin:0 auto;
+}
+.main-1st-1{
+    width:41.938rem;
+    height:7.5rem;
+    margin:0 auto;
+
+}
+.main-1st-1-sobis{
+    width:65rem;
+    height:17.125rem;
+    margin-top:2.5rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.main-1st-1-sobi-box{
+    width:14.438rem;
+    height:18.125rem;
+    align-items: center;
+    
+
+}
+.image{
+    margin:0 auto;
+}
+.image img{
+    width:11.25rem;
+    height:11.25rem;
+    border-radius:50%;
+    padding-left:1rem;
+    
+}
+.main-2nd{
+    width:66.25rem;
+    height:23.188rem;
+    border-radius: 1rem;
+    display:flex;
+    margin:0 auto;
+    margin-top:2.5rem;
+    background-color:rgba(34,34, 34, 100%);
+}
+.main-2nd-1{
+    width:27.688rem;
+    height:18.125rem;
+    margin-top:2.4rem;
+    margin-left:2.4rem;
+}
+.main-2nd-image{
+    margin:0 auto;
+    margin-top:2rem;
+}
+.seperate-box{
+    width:41.938rem;
+    height:7.5rem;
+    margin:0 auto;
+    margin-top:2rem;
+}
+.bmi-calculator-container{
+    width:100%;
+    height:30.438rem;
+    margin-top:2rem;
+    display:flex;
+}
+.bmi-calculator-leftside{
+    width:38%;
+    height:30.438rem;
+    margin-top:3rem;
+}
+.sheet-bmi{
+    width:48%;
+    margin-top:2.25rem;
+    border-collapse: collapse;
+    margin:0 auto;
+}
+.sheet-bmi th{
+    padding:0.62rem;
+    border:0.063rem solid #36454F;
+}
+.sheet-bmi td{
+    padding:0.625rem;
+    border:0.063rem solid #36454F;
+}
+.bmi-calculator-rightside{
+    width:45%;
+    height:38.438rem;
+
+}
+.bmi-calculator-rightside-input{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.25rem;
+}
+.input{
+    width:17.625rem;
+    height:3rem;
+    background-color:rgba(34,34, 34, 100%); 
+    border-radius:0.500rem;
+   
+}
+#input-5{
+    width:45rem;
+    grid-column:span 2;
+
+}
+
+/* main-last-start */
+
+.main-last{
+    width:66.25rem;
+    height:48.875rem;
+    margin:0 auto;
+    /* border:2px solid red; */
+}
+.main-last-1{
+    width:41.938rem;
+    height:7.5rem;
+    margin:0 auto;
+    /* border:2px solid red; */
+}
+.main-last-sobi{
+    width:66.25rem;
+    height:37.75rem;
+    margin-top:2rem;
+    background-color:rgba(34,34, 34, 100%);
+    display:flex;
+    /* border:2px solid red; */
+}
+.main-last-sobis{
+    width:20.375rem;
+    height:35.25rem;
+    margin:0 auto;
+    margin-top:2rem;
+    border:0.063rem solid rgba(34,34, 34, 100%);
+}
+.main-last-sobi-1{
+    width:20.375rem;
+    height:17rem;
+    border-radius: 1rem;
+    background-image: url("./images/trainer1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0.063rem solid rgba(34,34, 34, 100%);
+
+}
+.main-last-sobi-1 h1{
+    margin-top:11rem;
+}
+.main-last-sobi-2{
+    width:20.375rem;
+    height:17rem;
+    margin-top:1rem;
+    border-radius: 1rem;
+    background-image: url("./images/trainer4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0.063rem solid rgba(34,34, 34, 100%);
+
+}
+.main-last-sobi-2 h1{
+    margin-top:11rem;
+}
+.main-last-sobi-3{
+    width:20.375rem;
+    height:17rem;
+    border-radius: 1rem;
+    background-image: url("./images/trainer2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0.063rem solid rgba(34,34, 34, 100%);
+
+}
+.main-last-sobi-3 h1{
+    margin-top:11rem;
+}
+
+.main-last-sobi-4{
+    width:20.375rem;
+    height:17rem;
+    border-radius: 1rem;
+    margin-top:1rem;
+    background-image: url("./images/trainer5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0.063rem solid rgba(34,34, 34, 100%);
+
+}
+.main-last-sobi-4 h1{
+    margin-top:11rem;
+}
+.main-last-sobi-5{
+    width:20.375rem;
+    height:17rem;
+    border-radius: 1rem;
+    background-image: url("./images/trainer3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0.063rem solid rgba(34,34, 34, 100%);
+}
+.main-last-sobi-5 h1{
+    margin-top:11rem;
+}
+.main-last-sobi-6{
+    width:20.375rem;
+    height:17rem;
+    border-radius: 1rem;
+    margin-top:1rem;
+    background-image: url("./images/trainer6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0.063rem solid rgba(34,34, 34, 100%);
+}
+.main-last-sobi-6 h1{
+    margin-top:11rem;
+}
+
+
+
+/* footer-start */
+
+
+
+.footer-1{
+    width:100%;
+    height:30.563rem;
+    /* border:2px solid red; */
+    background-color:rgba(34,34, 34, 100%);
+    display:flex ;
+}
+.footer-left{
+    width:40%;
+    height:30.563rem;
+    /* border:2px solid red; */
+}
+
+.footer-middle{
+    width:20%;
+    height:30.563rem;
+    /* border:2px solid red; */
+}
+.footer-right{
+    width:40%;
+    height:30.563rem;
+    /* border:2px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
