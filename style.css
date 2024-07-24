@@ -2,18 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 
-.dancing-script-body {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight:normal;
-  font-style: normal;
-}
-
-
-
-
-
-
 :root{
     --primary-color:#111317;
     --primary-color-light:#1f2125;
@@ -25,10 +13,10 @@
 .noto-sans-body {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "width" 100;
+  /* font-variation-settings:"width" 100; */
+    
 }
 
 .full-body-color{
@@ -38,15 +26,16 @@
 
 /* header-1 */
 .header-1{
-    width:90rem;
+    width:100%;
     height:50rem;
-    border:2px solid red;
+    /* border:2px solid red; */
     margin:0 auto;
+    background:linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0)); 
 }
 .navbar{
     width:69.5rem;
     height:2.875rem;
-    border:2px solid red;
+    /* border:2px solid red; */
     margin:0 auto;
     margin-top:1.25rem;
     display:flex;
@@ -56,18 +45,27 @@
 .navbar-items{
     width:29rem;
     height:2.875rem;
-    border:2px solid red;
+    border:1px solid rgb(229, 217, 217);
+    border-radius: 2rem;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
 .header-1-2{
     width:37.441rem;
     height:27.5rem;
-    border:2px solid red;
+    /* border:2px solid red; */
     margin-left:9rem ;
     margin-top:4rem;
     color:aqua;
 }
+.dancing-script-body {
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+  }
+
 .last-header{
     display:flex;
 }
@@ -75,16 +73,61 @@
     width:29.875rem;
     display:flex;
     justify-content: space-between;
-    border:2px solid red;
+    /* border:2px solid red; */
     margin-top:2rem ;
    
 }
 .header-1-2-problem{
     width:27.5rem;
     height:36rem;
-    border:2px solid red;
+    margin:0 auto;
+    /* border:2px solid red; */
 }
+.header-background-image{
+    width:21.188rem;
+    height:36.25rem;
+    background-image:url("./images/Images 2.png");
+    /* border:2px solid red; */
+    margin:0 auto;
+}
+
+
+
+
+    
+
 /* button-2ta */
+
+.header-last-btn-1{
+    height:36rem;
+    border:2px solid rgba(255,255,255,0.1);
+    position:absolute;
+    margin:0 auto;
+    margin-left:13rem;
+    margin-top:8rem ;
+    background:linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter:blur(0.625rem);
+    -webkit-backdrop-filter: blur(0.625rem);
+    border-radius:1rem;
+    box-shadow:0 1.18 0.787 0    rgba(0, 0, 0, 0.17);
+    
+}
+
+.header-last-btn-2{
+    border:2px solid rgba(255,255,255,0.1);
+    margin-right:19rem;
+     margin-top:23rem;
+     position:absolute;
+     background:linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter:blur(0.625rem);
+    -webkit-backdrop-filter: blur(0.625rem);
+    border-radius:1rem;
+    box-shadow:0 1.18 0.787 0    rgba(0, 0, 0, 0.17);
+    
+}
+
+
+
 
 /* main-start */
 .main-1st{
@@ -151,10 +194,12 @@
 .bmi-calculator-container{
     width:100%;
     height:30.438rem;
+    background-color: #1f2125;
     margin-top:2rem;
     display:flex;
+    /* border:2px solid red; */
 }
-.bmi-calculator-leftside{
+.bmi-calculator-lessie{
     width:38%;
     height:30.438rem;
     margin-top:3rem;
@@ -173,12 +218,12 @@
     padding:0.625rem;
     border:0.063rem solid #36454F;
 }
-.bmi-calculator-rightside{
+.bmi-calculator-right{
     width:45%;
     height:38.438rem;
 
 }
-.bmi-calculator-rightside-input{
+.bmi-calculator-right-input{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     gap:1.25rem;
@@ -186,13 +231,37 @@
 .input{
     width:17.625rem;
     height:3rem;
-    background-color:rgba(34,34, 34, 100%); 
-    border-radius:0.500rem;
+    background-color:#36454F; 
+    border-radius:1rem;
    
+}
+#input-1{
+    background-color: rgba(34,34, 34, 100%);
+    border:0.063rem solid #36454F;
+    border-radius: 0.555rem ;
+}
+
+#input-2{
+    background-color: rgba(34,34, 34, 100%);
+    border:0.063rem solid #36454F;
+    border-radius: 0.555rem ;
+}
+#input-3{
+    background-color: rgba(34,34, 34, 100%);
+    border:0.063rem solid #36454F;
+    border-radius: 0.555rem ;
+}
+#input-4{
+    background-color: rgba(34,34, 34, 100%);
+    border:0.063rem solid #36454F;
+    border-radius: 0.555rem ;
 }
 #input-5{
     width:45rem;
     grid-column:span 2;
+    background-color: rgba(34,34, 34, 100%);
+    border:0.063rem solid #36454F;
+    border-radius: 0.555rem ;
 
 }
 
@@ -315,6 +384,12 @@
 
 
 /* footer-start */
+footer{
+    width:100%;
+    height:35.563rem;
+    /* border:2px solid red; */
+    background-color:rgba(34,34, 34, 100%);
+}
 
 
 
@@ -322,7 +397,7 @@
     width:100%;
     height:30.563rem;
     /* border:2px solid red; */
-    background-color:rgba(34,34, 34, 100%);
+    /* background-color:rgba(34,34, 34, 100%); */
     display:flex ;
 }
 .footer-left{
@@ -341,7 +416,10 @@
     height:30.563rem;
     /* border:2px solid red; */
 }
-
+.hr{
+    width:80%;
+    height:none;
+}
 
 
 
