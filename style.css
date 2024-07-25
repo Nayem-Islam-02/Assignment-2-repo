@@ -281,22 +281,22 @@
     margin:0 auto;
     /* border:2px solid red; */
 }
-.main-last-pic{
+.main-last-image{
     width:66.25rem;
     height:37.75rem;
     margin-top:2rem;
     background-color:rgba(34,34, 34, 100%);
     display:flex;
-    /* border:2px solid red; */
+    border:2px solid red;
 }
-.main-last-pics{
+.main-last-images{
     width:20.375rem;
     height:35.25rem;
     margin:0 auto;
     margin-top:2rem;
     border:0.063rem solid rgba(34,34, 34, 100%);
 }
-.main-last-pic-1{
+.main-last-image-1{
     width:20.375rem;
     height:17rem;
     border-radius: 1rem;
@@ -307,10 +307,10 @@
     border:0.063rem solid rgba(34,34, 34, 100%);
 
 }
-.main-last-pic-1 h1{
+.main-last-image-1 h1{
     margin-top:11rem;
 }
-.main-last-pic-2{
+.main-last-image-2{
     width:20.375rem;
     height:17rem;
     margin-top:1rem;
@@ -322,10 +322,10 @@
     border:0.063rem solid rgba(34,34, 34, 100%);
 
 }
-.main-last-pic-2 h1{
+.main-last-image-2 h1{
     margin-top:11rem;
 }
-.main-last-pic-3{
+.main-last-image-3{
     width:20.375rem;
     height:17rem;
     border-radius: 1rem;
@@ -336,11 +336,11 @@
     border:0.063rem solid rgba(34,34, 34, 100%);
 
 }
-.main-last-pic-3 h1{
+.main-last-image-3 h1{
     margin-top:11rem;
 }
 
-.main-last-pic-4{
+.main-last-image-4{
     width:20.375rem;
     height:17rem;
     border-radius: 1rem;
@@ -352,10 +352,10 @@
     border:0.063rem solid rgba(34,34, 34, 100%);
 
 }
-.main-last-pic-4 h1{
+.main-last-image-4 h1{
     margin-top:11rem;
 }
-.main-last-pic-5{
+.main-last-image-5{
     width:20.375rem;
     height:17rem;
     border-radius: 1rem;
@@ -365,10 +365,10 @@
     background-size: cover;
     border:0.063rem solid rgba(34,34, 34, 100%);
 }
-.main-last-pic-5 h1{
+.main-last-image-5 h1{
     margin-top:11rem;
 }
-.main-last-pic-6{
+.main-last-image-6{
     width:20.375rem;
     height:17rem;
     border-radius: 1rem;
@@ -379,7 +379,7 @@
     background-size: cover;
     border:0.063rem solid rgba(34,34, 34, 100%);
 }
-.main-last-pic-6 h1{
+.main-last-image-6 h1{
     margin-top:11rem;
 }
 
