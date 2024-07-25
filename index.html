@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Assignment-2</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,16 +16,43 @@
 <body class="full-body-color">
     <header> 
         <div class="header-1">
-            <nav class="navbar"><div><h2 style="color:rgba(230,83,60,100%); font-style: italic; font-size:2rem;">Fitness</h2></div><div class="navbar-items"><button style="background-color:rgba(230,83,60,100%); width:5.75rem; height:2.375rem; color:aqua ; border-radius:5rem ;border:none;">Home</button>
+            <nav class="navbar"><div><h2 style="color:rgba(230,83,60,100%); font-style: italic; font-size:1.678rem;">Fitness</h2></div><div class="navbar-items"><button style="background-color:rgba(230,83,60,100%); width:5.75rem; height:2.375rem; color:aqua ; border-radius:5rem ;border:none;">Home</button>
             <p style="color:aqua;" >Service</p>
         <p style="color:aqua;" >Contact</p>
-    <p style="color:aqua;" >About</p></div></nav>
+    <p style="color:aqua;" >About</p></div><div class="toggle-btn">
+    <i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+
+<div class="dropdown-menu">
+    <p><button style="background-color:rgba(230,83,60,100%);  height:2.375rem; color:aqua ; border-radius:5rem ;border:none;">Home</button></p>
+    <p style="color:aqua;" >Service</p>
+    <p style="color:aqua;" >Contact</p>
+    <p style="color:aqua;" >About</p>
+</div>
+<script>
+    const toggleBtn =document.querySelector('.toggle-btn')
+    const toggleBtnIcon =document.querySelector('.toggle-btn i')
+    const dropDownMenu =document.querySelector('.dropdown-menu')
+    
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+
+
+</script>
+
 
     <!--last header-->
 
 
     <div class="last-header">
-    <div class="header-1-2"><h1 style="font-size:5rem">Get body in <br> <span class="dancing-script-body"> shape </span> & stay <br> healthy</h1><p style="color:#36454F;">Muscle mass is difficult to measure. It also depends on many factors, including height, ethnicity, and fitness level.</p><div class="header-1-2-button"><button class="header-button" style="background-color:rgba(230,83,60,100%); width:14rem; height:3.375rem; color:aqua ; border-radius:5rem ;
+    <div class="header-1-2"><h1 style="font-size:5rem">Get body in <br> <span class="dancing-script-body"> shape </span> & stay <br> healthy</h1><p style="color:#36454F;">Muscle mass is difficult to . It also depends on many factors, including height, ethnicity, and fitness level.</p><div class="header-1-2-button"><button class="header-button" style="background-color:rgba(230,83,60,100%); width:14rem; height:3.375rem; color:aqua ; border-radius:5rem ;
     border:none;"><h3>Join Club Now!</h3></button><button
         style="background-color: #111317; width:14rem; height:3.375rem; color:aqua ; border-radius:5rem ; "> <h3>Download App</h3></button></div></div>
 
