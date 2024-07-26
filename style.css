@@ -40,6 +40,7 @@
     margin-top:1.25rem;
     display:flex;
     justify-content: space-between;
+    
 
 }
 .navbar-items{
@@ -276,12 +277,14 @@
     gap:1.25rem;
     /* border:2px solid red; */
     
+    
 }
 .input{
     width:17.625rem;
     height:3rem;
     background-color:#36454F; 
     border-radius:1rem;
+    
    
 }
 #input-1{
@@ -472,7 +475,7 @@ footer{
 /* media-responsive-layout-phone-start */
 
 /* header section start */
-@media   (max-width:576px){
+@media   (max-width:576px)  {
     .navbar-items{
         display:none;
     }
@@ -630,26 +633,45 @@ footer{
         height:25rem;
 
      }
-     
-
-
-        
-
-
-
-
-
-     
-
-     
-
-
-
-     
-
-    
-    
 }
+
+
+@media   (max-width:512px) and (min-width:470px){
+    
+    .header-1-2-button{
+        width:28.875rem;
+        display:flex;
+        justify-content: space-between;
+        /* border:2px solid red; */
+        margin-top:2rem ;
+       
+    }
+    .main-2nd-1{
+        margin-left:0rem;
+    }
+    .bmi-calculator-right{
+        width:100%;
+    }
+    .bmi-calculator-right-input{
+
+        width:100%;
+    }
+    .input{
+        width:97%;
+        height:3rem;
+        border:2px solid red;
+       
+
+    }
+    #input-5{
+        width:99%;
+    }
+    
+     
+
+}
+    
+
 
 
 
