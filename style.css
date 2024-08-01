@@ -323,6 +323,64 @@
     border-radius: 0.555rem ;
 
 }
+/* membership plans start*/
+
+.membership{
+    width:66.25rem;
+    height:32.875rem;
+    margin:0 auto;
+    /* border:2px solid red; */
+}
+.hr-1{
+    width:5%;
+    height:none;
+}
+.challenge-part{
+    width:66.25rem;
+    height:30.75rem;
+    margin-top:2rem;
+    display:flex;
+    /* border:2px solid red; */
+
+}
+.challenge-part-1{
+    width:30%;
+    height:27rem;
+    /* border:2px solid blue; */
+}
+.challenge-part-1-1{
+    width:85%;
+    height:25rem;
+    border:0.063rem solid #36454F;
+    margin-left:3rem;
+    margin-top:2rem;
+}
+.hr-1-1{
+    width:75%;
+}
+.challenge-part-2{
+    width:30%;
+    height:28rem;
+    border:0.063rem solid #36454F;
+    margin-left:5%;
+}
+.challenge-part-3{
+    width:30%;
+    height:27rem;
+    /* border:2px solid blue; */
+    margin-left:5%;
+
+}
+.challenge-part-3-1{
+    width:85%;
+    height:25rem;
+    border:0.063rem solid #36454F;
+    margin-top:2rem;
+}
+
+
+
+
 
 /* main-last-start */
 
@@ -343,6 +401,7 @@
     height:37.75rem;
     margin-top:2rem;
     background-color:rgba(34,34, 34, 100%);
+    margin:0 auto;
     display:flex;
     /* border:2px solid red; */
 }
@@ -447,6 +506,7 @@ footer{
     width:100%;
     height:35.563rem;
     /* border:2px solid red; */
+    margin-top: 10rem;
     background-color:rgba(34,34, 34, 100%);
 }
 
@@ -595,6 +655,50 @@ footer{
      {
         width:27.987rem;
      }
+
+     /* <!-- membership plans start --> */
+     .membership{
+        width:100%;
+        height:100rem;
+        /* border:2px solid red; */
+    
+     }
+     .hr-1{
+        width:70%;
+     }
+     .challenge-part{
+        width:100%;
+        height:90rem;
+        flex-direction: column;
+        /* border:2px solid red; */
+     }
+     .challenge-part-1{
+        width:60%;
+        margin:0 auto;
+        margin-left:4rem;
+     }
+
+     .challenge-part-2{
+        width:70%;
+        height:30rem;
+        margin:0 auto;
+        margin-top:4rem;
+        margin-bottom: 4rem;
+        /* border:2px solid red; */
+    
+     }
+     
+     
+
+     .challenge-part-3{
+        width:60%;
+        margin:0 auto;
+        /* border:2px solid red; */
+     }
+     
+
+
+
      .main-last{
         width:100%;
         height:130rem;
