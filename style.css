@@ -119,6 +119,21 @@
     margin-top:2rem ;
    
 }
+.header-button{
+    background-color:rgba(230,83,60,100%);
+    width:14rem;
+    height:3.375rem;
+    color:aqua ; 
+    border-radius:5rem ;
+    border:none;
+}
+.header-button2{
+    background-color: #111317;
+    width:14rem;
+    height:3.375rem;
+    color:aqua ; 
+    border-radius:5rem;
+}
 .header-1-2-problem{
     width:27.5rem;
     height:36rem;
@@ -144,6 +159,8 @@
     height:36rem;
     border:2px solid rgba(255,255,255,0.1);
     position:absolute;
+    width:12.063rem;
+    height:6.125rem;
     margin:0 auto;
     margin-left:13rem;
     margin-top:8rem ;
@@ -158,9 +175,11 @@
 .header-last-btn-2{
     border:2px solid rgba(255,255,255,0.1);
     margin-right:19rem;
-     margin-top:23rem;
-     position:absolute;
-     background:linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    margin-top:23rem;
+    width:12.063rem;
+    height:6.125rem; 
+    position:absolute;
+    background:linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
     backdrop-filter:blur(0.625rem);
     -webkit-backdrop-filter: blur(0.625rem);
     border-radius:1rem;
@@ -291,6 +310,7 @@
     height:3rem;
     background-color:#36454F; 
     border-radius:1rem;
+    /* border:2px solid red; */
     
    
 }
@@ -773,7 +793,7 @@ footer{
     .input{
         width:97%;
         height:3rem;
-        border:2px solid red;
+        /* border:2px solid red; */
        
 
     }
@@ -783,6 +803,76 @@ footer{
     
      
 
+}
+@media  (max-width:469px) and (min-width:425px) {
+    .header-1{
+        width:100%;
+    }
+    
+    .header-1-2-problem{
+        width:100%;
+        
+    }
+    .header-1-2-button{
+        width:100%;
+        
+    }
+    .header-button{
+        width:12rem; 
+        height:3.375rem; 
+
+    }
+    .header-button2{
+        width:12rem;
+    }
+    .header-last-btn-1{
+        margin-left:11rem;
+        margin-top: 7rem;
+    }
+    .main-2nd{
+        width:100%;
+        
+    }
+    .main-2nd-1{
+        margin-left:1.4rem;
+    }
+    .bmi-calculator-lessie{
+        width:60%;
+        margin-left: 5rem;
+
+    }
+
+    .bmi-calculator-right{
+        width:100%;
+        
+    }
+    .input{
+        width:95%;
+        height:3rem;
+    }
+    #input-1{
+        width:80%;
+        margin-left:0rem;
+    }
+    #input-2{
+        width:98.5%;
+        margin-left:-2rem;
+    }
+    #input-3{
+        width:80%;
+        margin-left:0rem;
+    }
+    #input-4{
+        width:98.5%;
+        margin-left:-2rem;
+    }
+    #input-5{
+        width:25rem;
+
+    }
+
+
+    
 }
     
 
