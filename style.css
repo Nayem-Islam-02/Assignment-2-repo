@@ -184,7 +184,16 @@
     -webkit-backdrop-filter: blur(0.625rem);
     border-radius:1rem;
     box-shadow:0 1.18 0.787 0    rgba(0, 0, 0, 0.17);
+    position:relative;
     
+}
+.icon{
+ position:absolute;
+ top:2rem;
+ font-size: 2rem;
+ color:rgb(178, 37, 37);
+ 
+
 }
 
 
