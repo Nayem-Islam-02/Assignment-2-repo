@@ -248,7 +248,7 @@
     
 }
 .main-2nd{
-    width:30rem;
+    width:70rem;
     height:23.188rem;
     border-radius: 1rem;
     display:flex;
@@ -265,6 +265,7 @@
     height:18.125rem;
     margin-top:2.4rem;
     /* border:2px solid red; */
+    margin-left:3rem;
 }
 .main-2nd-image{
     margin:0 auto;
@@ -369,7 +370,7 @@
 
 }
 #input-5{
-    width:38rem;
+    width:38.3rem;
     grid-column:span 2;
     background-color: rgba(34,34, 34, 100%);
     border:0.063rem solid #36454F;
@@ -725,8 +726,8 @@ footer{
 
      }
      .bmi-calculator-right-input{
-        margin-left:4rem;
-        width:70%;
+        /* margin-left:4rem; */
+        width:100%;
      }
      .input{
         width:12.555rem;
@@ -742,7 +743,7 @@ footer{
      }
      #input-5
      {
-        width:30%;
+        width:28rem;
         /* -31.6rem; */
      }
 
@@ -904,7 +905,7 @@ footer{
             margin-right:1rem;
         }
     
-    }
+    
     .main-2nd{
         width:100%;
         
@@ -951,9 +952,9 @@ footer{
 
     }
 
-
-    
 }
+    
+
     
 
 
